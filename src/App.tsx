@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import "tailwindcss";
+import { Card } from "./components";
+import mikaelPhoto from "./assets/imgs/mikael.png";
 
 function App() {
   return (
-    <>
-      <div>
-        HI
+    <div className="screen h-screen bg-blue-500 p-20">
+      <div className="
+        content
+        h-full
+        bg-background
+      ">
+        <Card
+          name="Mikael"
+          phone="(83) 98608-4258"
+          photo={mikaelPhoto}
+          skills={["ReactJS"]}
+          history=""
+        />
       </div>
-    </>
+    </div>
   )
 }
 
