@@ -1,6 +1,7 @@
 import "tailwindcss";
 import { Card } from "./components";
-import mikaelPhoto from "./assets/imgs/mikael.png";
+import mikaelPhoto from "./assets/imgs/mikael.jpeg";
+import esdrasPhoto from "./assets/imgs/esdras.jpg";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
           history="Cursando Analise e Desenvolvimento de Sistema, trabalhou por um breve periodo na ChamaDev, atuando como desenvolvedor FullStack, desenvolvendo tanto o Back-end, quanto o Front-end."
         />
         <Card
-          name="Mikael Stanley"
+          name="Esdras Lima"
           phone="(83) 98608-4258"
-          photo={mikaelPhoto}
+          photo={esdrasPhoto}
           skills={["ReactJS","SpringBoot","Java","Flutter"]}
           history="Cursando Analise e Desenvolvimento de Sistema, trabalhou por um breve periodo na ChamaDev, atuando como desenvolvedor FullStack, desenvolvendo tanto o Back-end, quanto o Front-end."
         />

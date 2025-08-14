@@ -1,9 +1,9 @@
 import Title from "./Title";
 import Text from "./Text";
-import DividerH from "./DividerV";
+import DividerV from "./DividerV";
 
 export {
   Title,
   Text,
-  DividerH
+  DividerV
 }

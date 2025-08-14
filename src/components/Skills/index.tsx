@@ -1,5 +1,5 @@
 import "tailwindcss";
-import { DividerH, Text } from "../base";
+import { DividerV, Text } from "../base";
 
 interface SkillsProps {
   skills: string[];
@@ -8,7 +8,7 @@ interface SkillsProps {
 export default function Skills(props: SkillsProps) {
   return (
     <div className="crd-skills flex gap-3">
-      <DividerH/>
+      <DividerV/>
       <div className="skills">
         {props.skills.map(skill => <Text content={skill}/>)}
       </div>
