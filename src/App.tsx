@@ -4,18 +4,33 @@ import mikaelPhoto from "./assets/imgs/mikael.png";
 
 function App() {
   return (
-    <div className="screen h-screen bg-blue-500 p-20">
+    <div className="screen h-screen bg-background p-20">
       <div className="
         content
         h-full
-        bg-background
+        flex
+        justify-between
       ">
         <Card
-          name="Mikael"
+          name="Mikael Stanley"
           phone="(83) 98608-4258"
           photo={mikaelPhoto}
-          skills={["ReactJS"]}
-          history=""
+          skills={["ReactJS","SpringBoot","Java","Flutter"]}
+          history="Cursando Analise e Desenvolvimento de Sistema, trabalhou por um breve periodo na ChamaDev, atuando como desenvolvedor FullStack, desenvolvendo tanto o Back-end, quanto o Front-end."
+        />
+        <Card
+          name="Mikael Stanley"
+          phone="(83) 98608-4258"
+          photo={mikaelPhoto}
+          skills={["ReactJS","SpringBoot","Java","Flutter"]}
+          history="Cursando Analise e Desenvolvimento de Sistema, trabalhou por um breve periodo na ChamaDev, atuando como desenvolvedor FullStack, desenvolvendo tanto o Back-end, quanto o Front-end."
+        />
+        <Card
+          name="Mikael Stanley"
+          phone="(83) 98608-4258"
+          photo={mikaelPhoto}
+          skills={["ReactJS","SpringBoot","Java","Flutter"]}
+          history="Cursando Analise e Desenvolvimento de Sistema, trabalhou por um breve periodo na ChamaDev, atuando como desenvolvedor FullStack, desenvolvendo tanto o Back-end, quanto o Front-end."
         />
       </div>
     </div>

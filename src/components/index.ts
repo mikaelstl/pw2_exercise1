@@ -1,5 +1,7 @@
 import Card from './Card';
+import Skills from './Skills';
 
 export {
-  Card
+  Card,
+  Skills
 }
